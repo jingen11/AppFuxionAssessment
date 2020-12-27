@@ -10,7 +10,7 @@
       "resizeMode": "contain",
       "backgroundColor": "#ecca00"
     },
-    "platforms": [
+    "platforms":[
       "ios",
       "android"
     ],
@@ -21,14 +21,17 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "assessmentJE",
+      "buildNumber": "1.0.0"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ecca00"
       },
-      "package": "com.jingen11.assessmentjingen"
+      "package": "com.yourcompany.yourappname",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
